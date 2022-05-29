@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Koulen&family=Lato:ital,wght@0,700;1,700&family=Macondo&family=Skranji&family=Spline+Sans+Mono:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Koulen&family=Lato:ital,wght@0,700;1,700&family=Macondo&family=Monofett&family=Monoton&family=Skranji&family=Spline+Sans+Mono:wght@600&family=Syne+Mono&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    font-family: 'Lato', sans-serif;
+}
+.navbar{
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 0.2rem;
+    background: rgba(0, 0, 0, 0.276) !important;
+}
+.navbar-dark .navbar-nav .nav-link{
+    color: rgb(251, 255, 255);
+    padding: 10px;
+}
+.navbar-dark .navbar-nav .nav-link.active,.navbar-dark .navbar-nav .nav-link:hover{
+    color: aqua;
+}
+.background{
+   position: relative; 
+   
+}
+.heading-content{
+    position: absolute;
+    top: 40%;
+    width: 100%;
+    max-width: 100%;
+    /* z-index: 30; */
+   
+ 
+}
+.heading-content h5{
+    font-size: 2.5em;
+    font-weight: 300;
+    color: rgb(255, 255, 255);
+    word-spacing: 3px;
+    letter-spacing: 5px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.heading-content h1{
+    font-size: 5em;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+    letter-spacing: 5px;
+   font-family: 'Syne Mono', monospace;
+}
+.heading-content p{
+    font-size: 1em;
+    font-weight: 300;
+    color: rgb(255, 255, 255);
+   font-family:Arial, Helvetica, sans-serif;
+   text-transform: uppercase;
+   word-spacing: 8px;
+   letter-spacing: 10px;
+
+}
+
+/* about */
+
+#buttt{
+    border: 2px solid rgb(252, 0, 0);
+    width: 40%;
+    padding: 15px 22px;
+    background: rgb(3, 0, 0);
+    border-radius: 5px;
+    margin-top: 10px;
+
+}
+#buttt{
+    color: azure;
+    text-decoration: none;
+    font-size: 1em;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+#buttt{
+   border: 2px solid rgb(236, 5, 5);
+   cursor: pointer;
+}
+#pg{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.em;
+}
+
+
